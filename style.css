@@ -9,5 +9,34 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: rgb(58, 59, 59);
+  background-color: rgb(55, 74, 109);
+}
+
+.button-container {
+  border: 2px solid white;
+  border-radius: 10px;
+  color: white;
+}
+
+button {
+  border: none;
+  font-family: Barlow, sans-serif;
+  font-size: 40px;
+  color: inherit;
+  background: none;
+  cursor: pointer;
+  padding: 15px 50px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: 700;
+  transition: all 0.3s;
+}
+
+button:hover {
+  background-color: white;
+  color: black;
+}
+
+button:active {
+  transform: scale(1.2);
 }
